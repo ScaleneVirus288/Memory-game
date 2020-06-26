@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Karty</title>
+	<meta name="description" content="JS Memory Game inspired by Gwent">
+	<meta name="keywords" content="javascript, jQuery, game, gwent, memory">
+	<meta name="author" content="MZ">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<div id="gora"><header>
+		<h1>Cards</h1>
+		</header><br><br><br>
+	</div>
+	<center>
+	<div id="dol">
+		<div>
+			<p> <font size=6>Select amount of cards you want to use</p>
+				<input class="buttony" type="submit" value="3 pairs" onclick="start(3)"> <input class="buttony" type="submit" value="6 pairs" onclick="start(6)"> 
+				<input class="buttony" type="submit" value="10 pairs" onclick="start(10)"> <input class="buttony" type="submit" value="14 pairs" onclick="start(14)"> </font>
+			</div>
+		</center>
+	</div>
+	<script src="script.js" defer></script>
+	<div id="gra3">
+	 	<main>
+			<article>
+				<div class="board">
+					<div class="card" id="f0"></div>
+					<div class="card" id="f1"></div>
+					<div class="card" id="f2"></div>
+					<div class="card" id="f3"></div>
+				
+					<div class="card" id="f4"></div>
+					<div class="card" id="f5"></div>
+					
+					<div class="score">
+						Turn counter: 0
+					</div>
+				</div>
+			</article>
+		</main>
+	</div>
+	
+	<div id="gra14">
+		<main>
+			<article>
+				<div class="board">
+					<div class="card" id="c0"></div>
+					<div class="card" id="c1"></div>
+					<div class="card" id="c2"></div>
+					<div class="card" id="c3"></div>
+				
+					<div class="card" id="c4"></div>
+					<div class="card" id="c5"></div>
+					<div class="card" id="c6"></div>
+					<div class="card" id="c7"></div>
+				
+					<div class="card" id="c8"></div>
+					<div class="card" id="c9"></div>
+					<div class="card" id="c10"></div>
+					<div class="card" id="c11"></div>
+				
+					<div class="card" id="c12"></div>
+					<div class="card" id="c13"></div>
+					<div class="card" id="c14"></div>
+					<div class="card" id="c15"></div>
+				
+					<div class="card" id="c16"></div>
+					<div class="card" id="c17"></div>
+					<div class="card" id="c18"></div>
+					<div class="card" id="c19"></div>
+				
+					<div class="card" id="c20"></div>
+					<div class="card" id="c21"></div>
+					<div class="card" id="c22"></div>
+					<div class="card" id="c23"></div>
+				
+					<div class="card" id="c24"></div>
+					<div class="card" id="c25"></div>
+					<div class="card" id="c26"></div>
+					<div class="card" id="c27"></div>
+				
+					<div class="score">
+						Turn counter: 0
+					</div>
+				</div>
+			</article>
+		</main>
+	</div>
+	
+	<div id="gra10">
+		<main>
+			<article>
+				<div class="board">
+					<div class="card" id="d0"></div>
+					<div class="card" id="d1"></div>
+					<div class="card" id="d2"></div>
+					<div class="card" id="d3"></div>
+				
+					<div class="card" id="d4"></div>
+					<div class="card" id="d5"></div>
+					<div class="card" id="d6"></div>
+					<div class="card" id="d7"></div>
+				
+					<div class="card" id="d8"></div>
+					<div class="card" id="d9"></div>
+					<div class="card" id="d10"></div>
+					<div class="card" id="d11"></div>
+				
+					<div class="card" id="d12"></div>
+					<div class="card" id="d13"></div>
+					<div class="card" id="d14"></div>
+					<div class="card" id="d15"></div>
+				
+					<div class="card" id="d16"></div>
+					<div class="card" id="d17"></div>
+					<div class="card" id="d18"></div>
+					<div class="card" id="d19"></div>
+					
+					<div class="score">
+						Turn counter: 0
+					</div>
+				</div>
+			</article>
+		</main>
+	</div>
+	
+	<div id="gra6">
+	 	<main>
+			<article>
+				<div class="board">
+					<div class="card" id="e0"></div>
+					<div class="card" id="e1"></div>
+					<div class="card" id="e2"></div>
+					<div class="card" id="e3"></div>
+				
+					<div class="card" id="e4"></div>
+					<div class="card" id="e5"></div>
+					<div class="card" id="e6"></div>
+					<div class="card" id="e7"></div>
+				
+					<div class="card" id="e8"></div>
+					<div class="card" id="e9"></div>
+					<div class="card" id="e10"></div>
+					<div class="card" id="e11"></div>
+				
+					<div class="score">
+						Turn counter: 0
+					</div>
+				</div>
+			</article>
+		</main>
+	</div>
+</body>
+</html>
